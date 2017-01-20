@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # Copyright (c) 2016 Dell Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -14,7 +14,8 @@
 # permissions and limitations under the License.
 
 # Constants
-SDI_DB_BASE_DEFAULT     = '/etc/opt/dell/os10/sdi/'
+#EXTREME_HACK SDI_DB_BASE_DEFAULT     = '/etc/opt/dell/os10/sdi/'
+SDI_DB_BASE_DEFAULT     = '/etc/opx/sdi/'
 SDI_DB_NAME_DEFAULT     = 'vm.db'
 SDI_DB_QUERY_ALL        = ''                 # No condition filtering
 SDI_DB_SDI_LIB_DEFAULT  = '/opt/dell/os10/lib/'
